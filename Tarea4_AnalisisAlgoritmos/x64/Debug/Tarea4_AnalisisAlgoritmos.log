@@ -3,16 +3,16 @@ C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\
 C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(25,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(37,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
 C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(98,11): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(157,61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(159,61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
-C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(144,59): warning C4244: 'return': conversion from '_Rep' to 'double', possible loss of data
-C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(144,59): warning C4244:         with
-C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(144,59): warning C4244:         [
-C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(144,59): warning C4244:             _Rep=__int64
-C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(144,59): warning C4244:         ]
-      C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(144,59):
+C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(158,61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(160,61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(145,59): warning C4244: 'return': conversion from '_Rep' to 'double', possible loss of data
+C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(145,59): warning C4244:         with
+C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(145,59): warning C4244:         [
+C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(145,59): warning C4244:             _Rep=__int64
+C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(145,59): warning C4244:         ]
+      C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(145,59):
       the template instantiation context (the oldest one first) is
-          C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(166,28):
+          C:\Users\hecto\source\repos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos\Tarea4_AnalisisAlgoritmos.cpp(168,28):
           see reference to function template instantiation 'double testSort<void(__cdecl *)(std::vector<int,std::allocator<int>> &)>(Func,std::vector<int,std::allocator<int>>)' being compiled
           with
           [
