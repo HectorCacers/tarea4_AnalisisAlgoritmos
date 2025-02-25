@@ -20,6 +20,7 @@ void insertionSort(vector<int>& arr) {
         arr[j + 1] = key;
     }
 }
+
 void selectionSort(vector<int>& arr) {
     int n = arr.size();
     for (int i = 0; i < n - 1; i++) {
@@ -124,7 +125,6 @@ void quickSort(vector<int>& arr, int low, int high) {
     }
 }
 
-
 vector<int> generateRandomVector(int size, int minVal = 0, int maxVal = 100000) {
     vector<int> vec(static_cast<int>(size));
     random_device rd;
@@ -144,9 +144,11 @@ double testSort(Func sortFunction, vector<int> arr) {
     return duration_cast<milliseconds>(stop - start).count();
 }
 
+
 int main() {
-    int size = 5000; 
+    int size = 20000; 
     vector<string> names = { "Insertion Sort", "Selection Sort", "Bubble Sort", "Merge Sort", "Heap Sort", "Quick Sort" };
+
 
     vector<void(*)(vector<int>&)> functions = {
         insertionSort,
@@ -157,8 +159,7 @@ int main() {
         [](vector<int>& arr) { quickSort(arr, 0, arr.size() - 1); }
     };
 
-
-    cout << "\nTamaño: Corto (" << size << " elementos)\n";
+    cout << "\nTamaño: Mediano (" << size << " elementos)\n";
     cout << "------------------------------------------------------\n";
     for (size_t i = 0; i < functions.size(); i++) {
         vector<int> original = generateRandomVector(size);
